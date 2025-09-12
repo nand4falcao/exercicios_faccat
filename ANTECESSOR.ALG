@@ -1,19 +1,19 @@
 Algoritmo "antecessor"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson Costa do Santos
-// Descrição   : Mostrar o númeor
-// Autor(a)    : Maria Fernanda Falcão
+// DescriÃ§Ã£o   : Mostrar o nÃºmero antecessor do digitado
+// Autor(a)    : Maria Fernanda FalcÃ£o
 // Data atual  : 11/09/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 n, n1: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   Escreval ("Digite um número:")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+   Escreval ("Digite um nÃºmero:")
    Leia (n)
    n1 <- n -1
    Escreval ("")
-   Escreval ("O número antecessor a esse é", n1)
+   Escreval ("O nÃºmero antecessor a esse Ã©", n1)
 
 Fimalgoritmo
