@@ -26,5 +26,11 @@ Inicio
    saldoAtual <- saldo - debito + credito
 
    Escreval ("Digite seu saldo atual é: R$", saldoAtual)
+   
+   se (saldoAtual>= 0) entao
+   Escreval ("Saldo Positivo")
+   senao
+   Escreval ("Saldo Negativo")
+   fimSe
 
 Fimalgoritmo
